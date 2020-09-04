@@ -20,3 +20,10 @@ function addBorder(arr) {
 const inputArray = ["abc", "edfeg", "stuwyx"]
 
 console.log(addBorder(inputArray))
+
+// Challenge Day 2 - Add the two digits of an integer
+
+function addTwoDigits(num) {
+  //  write code here.
+  const numStr = num.toString()
+}
