@@ -49,9 +49,19 @@ function addTwoDigits(num) {
 // Day 3 - first duplicate
 
 function firstDuplicate(n) {
+  let dup = []
+  let notDup = []
 
-  
-  console.log(n)
+  n.forEach(elem => {
+    !(elem in notDup) ? notDup.push(elem) : dup.push(elem)
+  })
+
+  if (dup.length === 0) {
+    return -1
+  }
+  return dup[0]
 }
 const nums = [2, 1, 3, 5, 4, 6]
-firstDuplicate(nums)
+const nums2 = [2, 1, 3, 5, 3, 2]
+
+console.log(firstDuplicate(nums))
