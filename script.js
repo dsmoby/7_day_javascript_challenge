@@ -47,10 +47,9 @@ function addTwoDigits(num) {
 //--------------------------------------------------------------------------------------------
 
 // Day 3 - first duplicate
-
 function firstDuplicate(n) {
-  let dup = []
-  let notDup = []
+  const dup = []
+  const notDup = []
 
   n.forEach(elem => {
     !(elem in notDup) ? notDup.push(elem) : dup.push(elem)
@@ -61,7 +60,26 @@ function firstDuplicate(n) {
   }
   return dup[0]
 }
-const nums = [2, 1, 3, 5, 4, 6]
+const nums1 = [2, 1, 3, 5, 4, 6]
 const nums2 = [2, 1, 3, 5, 3, 2]
 
-console.log(firstDuplicate(nums))
+const firstDuplicate2 = nums => nums.find((e, i, a) => a.indexOf(e) < i) || -1
+
+
+
+ٴٴٴٴ// console.log(firstDuplicate2(nums2))
+
+//--------------------------------------------------------------------------------------------
+
+// Day 4 - first duplicate
+
+function sumAllPrimes(n) {
+  let sum = 0
+  const nums = []
+  for (let i=0; i<i; i++){
+    nums.push(i)
+  }
+
+  return nums
+}
+
