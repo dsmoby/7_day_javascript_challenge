@@ -179,9 +179,11 @@ function evenDigitsOnly(number) {
 // Day 6: Make Array Consecutive
 
 function makeArrayConsecutive(nums) {
-  const sorted = sort(nums)
+  const maxNum = Math.max(...nums)
+  const minNum = Math.min(...nums)
+  const diff = maxNum - minNum + 1
+  return diff - nums.length
 }
-
-const numbers = [5,1,6,9]
+// console.log(`diff: ${diff}, nums length:  ${nums.length}`)
+const numbers = [6, 2, 3, 8]
 console.log(makeArrayConsecutive(numbers))
-
