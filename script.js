@@ -185,5 +185,18 @@ function makeArrayConsecutive(nums) {
   return diff - nums.length
 }
 // console.log(`diff: ${diff}, nums length:  ${nums.length}`)
-const numbers = [6, 2, 3, 8]
+/*const numbers = [6, 2, 3, 8]
 console.log(makeArrayConsecutive(numbers))
+*/
+//------------------------------------------------------------------
+
+// Day 7: Correct Noun 
+
+function properNounCorrection(str) {
+
+  return str
+  
+}
+
+
+console.log(properNounCorrection("moby"))
