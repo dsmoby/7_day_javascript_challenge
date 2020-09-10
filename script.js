@@ -152,9 +152,14 @@ function sumAllPrimes3(num) {
     })
 }
 
+/*
 const n = 977
 const res = sumAllPrimes(n)
 const res1 = sumAllPrimes1(n)
 
 console.log("sumAllPrimes: " + res)
 console.log("sumAllPrimes1: " + res1)
+*/
+
+//-------------------------------------------------------
+// Day 5 Challenge: Even digits 
