@@ -162,4 +162,9 @@ console.log("sumAllPrimes1: " + res1)
 */
 
 //-------------------------------------------------------
-// Day 5 Challenge: Even digits 
+// Day 5 Challenge: Even digits
+function evenDigitsOnly(number) {
+  return number.toString().split("").map(d => parseInt(d)).every(cur=> cur%2===0 )
+}
+
+console.log(evenDigitsOnly(42648))
