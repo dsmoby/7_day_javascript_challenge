@@ -173,4 +173,15 @@ function evenDigitsOnly(number) {
     .every(cur => cur % 2 === 0)
 }
 
-console.log(evenDigitsOnly(21))
+// console.log(evenDigitsOnly(21))
+
+//------------------------------------------------------------------------
+// Day 6: Make Array Consecutive
+
+function makeArrayConsecutive(nums) {
+  const sorted = sort(nums)
+}
+
+const numbers = [5,1,6,9]
+console.log(makeArrayConsecutive(numbers))
+
